@@ -1,0 +1,33 @@
+1.需求中有四张表，分别对应用户信息表、单车信息表、用户位置信息表以及用户卡充值信息表
+
+
+
+2.	CREATE TABLE usereqq(
+	UserID varchar(20)  PRIMARY KEY
+  Name VARCHAR(20) NOT NULL
+  email varchar(64)
+  weixin VARCHAR(64)
+  tel varchar(32)
+	)
+
+
+	CREATE TABLE bicycle(
+  UserID varchar(20)  PRIMARY KEY
+	Name varchar(20) NOT NULL
+  xh varchar(20) 
+  
+	)
+
+	CREATE TABLE gps(
+	Name varchar(20) NOT NULL 
+  locationvarchar(64)
+	)
+
+	CREATE TABLE money(
+	Name varchar(20) NOT NULL 
+  MaxMoney VARCHAR(32)
+  MinMoney VARCHAR(32)
+  SurMoney VARCHAR(32)
+
+	)
+
